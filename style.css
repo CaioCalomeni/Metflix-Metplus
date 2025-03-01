@@ -194,6 +194,9 @@ a {
         margin: 3.375em 0;
         width: 85%;
     }
+    .imagem__notebook {
+        margin-top: 5em;
+    }
     .imagem__plataforma {
         margin: 0em 0em 3em 0;
     }
