@@ -184,6 +184,9 @@ a {
         margin-bottom: 0;
         height: 85vh;
     }
+    .videos {
+        height: 50vh;
+    }
     .titulo__destaque {
         font-size: 2.5em;
     }
