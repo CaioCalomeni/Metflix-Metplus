@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://db.onlinewebfonts.com/c/0db73a4c9e3a40bd3d0d64b091d404a5?family=Maqui+W00+Bold');
+
+:root {
+    --cor-branca: #FFFFFF;
+    --cor-azul: #167BF7;
+    --cor-vermelha: #EC2F46;
+    --cor-cinza: #c0c0c0;
+    --cor-footer: #808080;
+    --cor-fundo: #00030c;
+    --fonte-principal: 'Inter',serif;
+    --fonte-secundaria: "Maqui W00 Bold", serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-branca);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+    color: var(--cor-branca);
+}
+.principal {
+    background-image: url(imagens/Background\ 2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+/* .container__caixa {
+    margin: 0 6em;
+} */
+.titulo__destaque {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+.container__imagem {
+    margin: 3.375em 0 3.375em 0;
+    width: 60%;
+}
+.container__botao {
+    display: block;
+    background-color: var(--cor-azul);
+    border-radius: 8px;
+    padding: 1em;
+    color: var(--cor-branca);
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0.5em auto;
+}
+.container__botao:hover{
+    transform: scale(1.02);
+}
+.botao__secundario {
+    background: transparent;
+    border: 1px solid var(--cor-branca);
+}
+.container__disclaimer {
+    font-size: 0.75em;
+    color: var(--cor-footer)
+}
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+.botao-terciario {
+    width: 30%;
+}
+.imagem__plataforma {
+    width: 100%;
+}
+.descricao__titulo {
+    font-size: 3em;
+    font-weight: 700;
+    color: var(--cor-branca);
+    margin-bottom: 0.1em;
+}
+.descricao__texto {
+    font-size: 1em;
+    color: var(--cor-cinza);
+    margin-bottom: 1em;
+    line-height: 170%;
+    text-align: justify;
+}
+.imagem__telas {
+    margin-left: 3em;
+    width: 100%;
+}
+.imagem__notebook {
+    width: 100%;
+}
+.texto__strong {
+    color: var(--cor-vermelha);
+}
+.container__combo2 {
+    text-align: center;
+}
+.texto__met {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5em;
+}
+.dispositivos{
+    text-align: center;
+    margin: 9em 0;
+}
+.container__dispositivos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    color: var(--cor-branca);
+    gap: 4em;
+}
+.titulo__dispositivo {
+    font-size: 3em;
+    margin-bottom: 1.5em;
+    font-weight: 800;
+}
+.descricao__dispositivo {
+    font-size: 2em;
+    font-weight: 800;
+}
+.imagem__dispositivos {
+    width: 100%;
+    margin-bottom: 1em;
+}
+.imagem__logo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.container__footer{
+    padding: 0 120px 100px 120px;
+}
+.footer__links {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    list-style: none;
+    gap: 1em;
+    color: var(--cor-branca);
+    margin-bottom: 24px;
+    font-size: 1em;
+}
+.footer__link:hover{
+    color: var(--cor-azul);
+}
+.footer__texto {
+    color: var(--cor-footer);
+    font-size: 14px;
+    text-align: center;
+}
+
+@media (max-width: 1300px) {
+    .principal {
+        background-image: url(imagens/Background\ 3.png);
+    }
+    .container {
+        display: block;
+        background-size: 100%; 
+    }
+    .container__caixa {
+        margin: 0;
+        padding: 5em 2em;
+    }
+    .secundario {
+        margin: 4em 2em 4em 2em;
+    }
+    .telas {
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 85vh;
+    }
+    .titulo__destaque {
+        font-size: 2.5em;
+    }
+    .container__imagem {
+        margin: 3.375em 0;
+        width: 85%;
+    }
+    .imagem__plataforma {
+        margin: 0em 0em 3em 0;
+    }
+    .descricao__titulo {
+        margin-bottom: 0.5em;
+    }
+    .container__combo2 {
+        margin: 0em 0em 1em 0;
+        justify-content: center;
+    }
+    .container__botao {
+        margin: 1em auto;
+        width: 80%;
+    }
+    .imagem__telas {
+        margin: 0;
+    }
+    .container__dispositivos {
+        flex-direction: column;
+    }
+    .container__footer {
+        padding: 0em 2em 7em 2em;
+    }
+    .footer__links {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .texto__met {
+        font-size: 1.25em;
+    }
+}
