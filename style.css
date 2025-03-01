@@ -185,7 +185,7 @@ a {
         height: 85vh;
     }
     .videos {
-        height: 60vh;
+        height: 70vh;
     }
     .titulo__destaque {
         font-size: 2.5em;
@@ -203,6 +203,9 @@ a {
     .descricao__titulo {
         margin-bottom: 0.5em;
     }
+    .descricao__texto {
+        margin-bottom: 3em;
+    }
     .container__combo2 {
         margin: 0em 0em 1em 0;
         justify-content: center;
@@ -212,7 +215,7 @@ a {
         width: 80%;
     }
     .imagem__telas {
-        margin: 0;
+        margin: 2em 0 0 0;
     }
     .container__dispositivos {
         flex-direction: column;
